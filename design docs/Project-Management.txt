@@ -1,0 +1,15 @@
+Src files are the source code, the stuff you want to upload to github. DON'T LOSE THESE!
+The source files will be then transferred to the build files once the website is ready to be uploaded to the server. (Npm run-script build)
+
+
+
+Src -> styles 
+There are several directories:
+Plugins - Any plugins you import into your project
+Helpers - Sass functions, mixins, variables
+Base - Base css, so for the HTML or body maybe. Not much going into here
+Layout - CSS for the major layout pieces like navigation, footer, jumbotron
+Modules - CSS for reusable modules, so components or classes. Stuff that can be remade or used on other pages.
+Templates - 
+
+Then in main.scss there are @import for the directories

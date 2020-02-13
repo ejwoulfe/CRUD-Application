@@ -1,0 +1,15 @@
+#login_container {
+  color: white;
+  max-width: 100%;
+  height: auto;
+  margin: auto;
+  text-align: center;
+  background-color: #353b45;
+  border-radius: 5px;
+  #login_form {
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    width: 200px;
+  }
+}

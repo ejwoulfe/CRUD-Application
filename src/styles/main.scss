@@ -1,8 +1,14 @@
 html,
 body {
   margin: 0;
-  height: 100%;
+  max-height: 1000px;
+}
+body {
   background: url("../assets/main-background-tree-with-water.jpg");
+  background-repeat: no-repeat;
+  background-color: #33333373;
+  background-position: center;
+  background-size: cover;
 }
 #root,
 .App {

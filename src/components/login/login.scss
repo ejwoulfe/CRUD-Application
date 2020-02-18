@@ -7,12 +7,25 @@
   background-color: #353b45;
   border-radius: 5px;
   margin-top: 20%;
+  padding-top: 1rem;
   #login_form {
     display: flex;
     margin: auto;
     flex-direction: column;
     width: 200px;
+    text-align: start;
   }
+}
+#submit_input {
+  color: white;
+  background-color: #5e7496;
+  margin-bottom: 3rem;
+  &:hover {
+    cursor: pointer;
+  }
+}
+.input_field {
+  margin-bottom: 2rem;
 }
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) {

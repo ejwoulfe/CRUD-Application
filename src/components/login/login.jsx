@@ -33,13 +33,16 @@ class LoginPage extends Component {
             name="password"
             required
           ></input>
-          <input
+          <button
             className="input_field"
             id="submit_input"
             type="submit"
             value="Login"
             onClick={this.verifyTextFields}
-          ></input>
+            data-testid="login_button"
+          >
+            Login
+          </button>
         </form>
       </div>
     );

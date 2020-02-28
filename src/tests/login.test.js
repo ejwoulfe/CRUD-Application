@@ -9,11 +9,3 @@ it("renders without crashing", () => {
     const div = document.createElement("div");
     ReactDOM.render( < LoginPage / > , div);
 })
-
-it("renders button correctly", () => {
-            const {
-                getByTestId
-            } = render( < LoginPage / > );
-            expect(getByTestId("login_button").textContent("Login");
-
-            });
